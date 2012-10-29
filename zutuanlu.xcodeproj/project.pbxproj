@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E65BA73E163EE70300469510 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E65BA735163EE70300469510 /* FMDatabase.m */; };
+		E65BA73F163EE70300469510 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E65BA737163EE70300469510 /* FMDatabaseAdditions.m */; };
+		E65BA740163EE70300469510 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E65BA739163EE70300469510 /* FMDatabasePool.m */; };
+		E65BA741163EE70300469510 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E65BA73B163EE70300469510 /* FMDatabaseQueue.m */; };
+		E65BA742163EE70300469510 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E65BA73D163EE70300469510 /* FMResultSet.m */; };
 		E66815C3163C291600AD3FAC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E66815C2163C291600AD3FAC /* libsqlite3.0.dylib */; };
-		E66815D5163C2A8B00AD3FAC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815CB163C2A8B00AD3FAC /* FMDatabase.m */; };
-		E66815D6163C2A8B00AD3FAC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815CD163C2A8B00AD3FAC /* FMDatabaseAdditions.m */; };
-		E66815D7163C2A8B00AD3FAC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815CF163C2A8B00AD3FAC /* FMDatabasePool.m */; };
-		E66815D8163C2A8B00AD3FAC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815D1163C2A8B00AD3FAC /* FMDatabaseQueue.m */; };
-		E66815D9163C2A8B00AD3FAC /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815D2163C2A8B00AD3FAC /* fmdb.m */; };
-		E66815DA163C2A8B00AD3FAC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815D4163C2A8B00AD3FAC /* FMResultSet.m */; };
 		E66815DD163C3EAB00AD3FAC /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = E66815DC163C3EAB00AD3FAC /* Base.m */; };
-		E67378481628927100B1E6FD /* Relation.m in Sources */ = {isa = PBXBuildFile; fileRef = E67378471628927100B1E6FD /* Relation.m */; };
 		E673784C1628941500B1E6FD /* GenHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E673784B1628941500B1E6FD /* GenHttpRequest.m */; };
 		E6AB23A816271D380052A9BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AB23A716271D380052A9BC /* UIKit.framework */; };
 		E6AB23AA16271D380052A9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AB23A916271D380052A9BC /* Foundation.framework */; };
@@ -46,22 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E65BA734163EE70300469510 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E65BA735163EE70300469510 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E65BA736163EE70300469510 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E65BA737163EE70300469510 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E65BA738163EE70300469510 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E65BA739163EE70300469510 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E65BA73A163EE70300469510 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E65BA73B163EE70300469510 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E65BA73C163EE70300469510 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E65BA73D163EE70300469510 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		E66815C2163C291600AD3FAC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		E66815CA163C2A8B00AD3FAC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		E66815CB163C2A8B00AD3FAC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		E66815CC163C2A8B00AD3FAC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		E66815CD163C2A8B00AD3FAC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		E66815CE163C2A8B00AD3FAC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		E66815CF163C2A8B00AD3FAC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		E66815D0163C2A8B00AD3FAC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		E66815D1163C2A8B00AD3FAC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		E66815D2163C2A8B00AD3FAC /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
-		E66815D3163C2A8B00AD3FAC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		E66815D4163C2A8B00AD3FAC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		E66815DB163C3EAB00AD3FAC /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		E66815DC163C3EAB00AD3FAC /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
-		E67378461628927100B1E6FD /* Relation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relation.h; sourceTree = "<group>"; };
-		E67378471628927100B1E6FD /* Relation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Relation.m; sourceTree = "<group>"; };
 		E673784A1628941500B1E6FD /* GenHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenHttpRequest.h; sourceTree = "<group>"; };
 		E673784B1628941500B1E6FD /* GenHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenHttpRequest.m; sourceTree = "<group>"; };
 		E6AB23A316271D380052A9BC /* zutuanlu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zutuanlu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,20 +111,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E66815C9163C2A8B00AD3FAC /* FMDatabase */ = {
+		E65BA733163EE70300469510 /* FMDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				E66815CA163C2A8B00AD3FAC /* FMDatabase.h */,
-				E66815CB163C2A8B00AD3FAC /* FMDatabase.m */,
-				E66815CC163C2A8B00AD3FAC /* FMDatabaseAdditions.h */,
-				E66815CD163C2A8B00AD3FAC /* FMDatabaseAdditions.m */,
-				E66815CE163C2A8B00AD3FAC /* FMDatabasePool.h */,
-				E66815CF163C2A8B00AD3FAC /* FMDatabasePool.m */,
-				E66815D0163C2A8B00AD3FAC /* FMDatabaseQueue.h */,
-				E66815D1163C2A8B00AD3FAC /* FMDatabaseQueue.m */,
-				E66815D2163C2A8B00AD3FAC /* fmdb.m */,
-				E66815D3163C2A8B00AD3FAC /* FMResultSet.h */,
-				E66815D4163C2A8B00AD3FAC /* FMResultSet.m */,
+				E65BA734163EE70300469510 /* FMDatabase.h */,
+				E65BA735163EE70300469510 /* FMDatabase.m */,
+				E65BA736163EE70300469510 /* FMDatabaseAdditions.h */,
+				E65BA737163EE70300469510 /* FMDatabaseAdditions.m */,
+				E65BA738163EE70300469510 /* FMDatabasePool.h */,
+				E65BA739163EE70300469510 /* FMDatabasePool.m */,
+				E65BA73A163EE70300469510 /* FMDatabaseQueue.h */,
+				E65BA73B163EE70300469510 /* FMDatabaseQueue.m */,
+				E65BA73C163EE70300469510 /* FMResultSet.h */,
+				E65BA73D163EE70300469510 /* FMResultSet.m */,
 			);
 			name = FMDatabase;
 			path = zutuanlu/FMDatabase;
@@ -138,7 +132,7 @@
 		E6AB239816271D370052A9BC = {
 			isa = PBXGroup;
 			children = (
-				E66815C9163C2A8B00AD3FAC /* FMDatabase */,
+				E65BA733163EE70300469510 /* FMDatabase */,
 				E6AB23AD16271D380052A9BC /* zutuanlu */,
 				E6AB23CB16271D380052A9BC /* zutuanluTests */,
 				E6AB23A616271D380052A9BC /* Frameworks */,
@@ -182,8 +176,6 @@
 				E6AB23AE16271D380052A9BC /* Supporting Files */,
 				E6AB23DF162727D00052A9BC /* ContactsViewController.h */,
 				E6AB23E0162727D00052A9BC /* ContactsViewController.m */,
-				E67378471628927100B1E6FD /* Relation.m */,
-				E67378461628927100B1E6FD /* Relation.h */,
 				E673784A1628941500B1E6FD /* GenHttpRequest.h */,
 				E673784B1628941500B1E6FD /* GenHttpRequest.m */,
 				E66815DB163C3EAB00AD3FAC /* Base.h */,
@@ -332,17 +324,15 @@
 				E6AB23B816271D380052A9BC /* AppDelegate.m in Sources */,
 				E6AB23BE16271D380052A9BC /* ViewController.m in Sources */,
 				E6AB23E1162727D00052A9BC /* ContactsViewController.m in Sources */,
-				E67378481628927100B1E6FD /* Relation.m in Sources */,
 				E673784C1628941500B1E6FD /* GenHttpRequest.m in Sources */,
 				E6BF08541630BBE600BDACA9 /* Contacts.m in Sources */,
 				E6BF08571630BC0200BDACA9 /* User.m in Sources */,
-				E66815D5163C2A8B00AD3FAC /* FMDatabase.m in Sources */,
-				E66815D6163C2A8B00AD3FAC /* FMDatabaseAdditions.m in Sources */,
-				E66815D7163C2A8B00AD3FAC /* FMDatabasePool.m in Sources */,
-				E66815D8163C2A8B00AD3FAC /* FMDatabaseQueue.m in Sources */,
-				E66815D9163C2A8B00AD3FAC /* fmdb.m in Sources */,
-				E66815DA163C2A8B00AD3FAC /* FMResultSet.m in Sources */,
 				E66815DD163C3EAB00AD3FAC /* Base.m in Sources */,
+				E65BA73E163EE70300469510 /* FMDatabase.m in Sources */,
+				E65BA73F163EE70300469510 /* FMDatabaseAdditions.m in Sources */,
+				E65BA740163EE70300469510 /* FMDatabasePool.m in Sources */,
+				E65BA741163EE70300469510 /* FMDatabaseQueue.m in Sources */,
+				E65BA742163EE70300469510 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +432,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zutuanlu/zutuanlu-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zutuanlu/zutuanlu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,7 +445,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zutuanlu/zutuanlu-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zutuanlu/zutuanlu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -469,6 +463,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zutuanlu/zutuanlu-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zutuanluTests/zutuanluTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -486,6 +481,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zutuanlu/zutuanlu-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zutuanluTests/zutuanluTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
