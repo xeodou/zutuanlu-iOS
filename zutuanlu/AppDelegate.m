@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Base.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +17,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    Base *base = [[Base alloc] init];
+////    NSLog(@"%@",[base isLogin]);
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+//    UINavigationController *fc = [storyboard instantiateViewControllerWithIdentifier:@"Root"];
+//    [self.window setRootViewController:fc];
+//    if(![base isLogin]){
+//        ViewController *login = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+//        [fc presentModalViewController:login animated:YES];
+////        [self.window.rootViewController performSegueWithIdentifier:@"Login" sender:self];
+    
+//    }
+    Base *base = [[Base alloc] init];
+    [base createTables];
     return YES;
 }
 							

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GenHttpRequest.h"
+@interface ViewController : UIViewController <UITextFieldDelegate, ZuTuanLuDelagte>
+@property (weak, nonatomic) IBOutlet UITextField *nameTF;
+@property (weak, nonatomic) IBOutlet UITextField *passTF;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
-@interface ViewController : UIViewController
-
+- (IBAction)login:(id)sender;
 @end
